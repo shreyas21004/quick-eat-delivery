@@ -13,6 +13,7 @@ import RestaurantsPage from "./pages/RestaurantsPage";
 import RestaurantDetailPage from "./pages/RestaurantDetailPage";
 import CartPage from "./pages/CartPage";
 import OrderSuccessPage from "./pages/OrderSuccessPage";
+import OrdersPage from "./pages/OrdersPage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import ProfilePage from "./pages/ProfilePage";
@@ -38,6 +39,7 @@ const App = () => (
                   <Route path="/restaurant/:id" element={<RestaurantDetailPage />} />
                   <Route path="/cart" element={<CartPage />} />
                   <Route path="/order-success" element={<OrderSuccessPage />} />
+                  <Route path="/orders" element={<OrdersPage />} />
                   <Route path="/login" element={<LoginPage />} />
                   <Route path="/register" element={<RegisterPage />} />
                   <Route path="/profile" element={<ProfilePage />} />
